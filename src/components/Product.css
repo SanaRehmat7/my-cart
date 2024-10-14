@@ -1,0 +1,72 @@
+/* Product Card Styling */
+.product-card {
+    background-color: #f8f9fa;
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Name Styling */
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  /* Product Price Badge */
+  .product-price {
+    background-color: #6c757d;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  /* Total Price Styling */
+  .total-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  /* Buttons Group Styling */
+  .btn-group .btn {
+    font-size: 1rem;
+    width: 50px; 
+    height: 45px; 
+    border-radius: 8px;
+  }
+  
+  /* Add Button Styling */
+  .btn-add {
+    background: linear-gradient(135deg, #28a745, #85e085);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+  }
+  
+  .btn-add:hover {
+    background: linear-gradient(135deg, #218838, #66cc66);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+  }
+  
+  /* Remove Button Styling */
+  .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
