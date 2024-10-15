@@ -69,3 +69,14 @@
     background-color: #dc3545;
     color: #fff;
   } 
+@media (min-width: 600px) {
+  .card {
+    width: 45%; /* Half width on tablets */
+  }
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: 30%; /* One-third width on desktops */
+  }
+}
